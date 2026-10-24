@@ -13,7 +13,9 @@ export default function Detalhes({ route }) {
       <Text style={styles.texto}>{receita.strInstructions}</Text>
     </ScrollView>
   );
-}const styles = StyleSheet.create({
+}
+
+const styles = StyleSheet.create({
   container: { flex: 1, padding: 15, backgroundColor: '#fff' },
   imagem: { width: '100%', height: 250, borderRadius: 10 },
   nome: { fontSize: 22, fontWeight: 'bold', marginTop: 15 },
